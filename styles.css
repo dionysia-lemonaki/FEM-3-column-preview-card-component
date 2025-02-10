@@ -1,3 +1,5 @@
+/* Style Guide */
+
 :root {
   /* colours */
   --bright-orange: hsl(31, 77%, 52%);
@@ -12,4 +14,20 @@
   --font-family-body: "Lexend Deca", sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("./fonts/BigShouldersDisplay.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("./fonts/LexendDeca.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100 900;
 }
