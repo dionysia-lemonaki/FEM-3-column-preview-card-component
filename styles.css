@@ -1,0 +1,15 @@
+:root {
+  /* colours */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --white-transparent: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  /* fonts */
+  --font-size-title: 2.5rem;
+  --font-size-body: 0.938rem;
+  --font-family-title: "Big Shoulders Display", sans-serif;
+  --font-family-body: "Lexend Deca", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
