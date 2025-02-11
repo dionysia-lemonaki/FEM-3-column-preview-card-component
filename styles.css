@@ -205,6 +205,11 @@ textarea:not([rows]) {
   color: var(--very-dark-cyan);
 }
 
+.attribution {
+  text-align: center;
+  margin-top: 16px;
+}
+
 /* Larger Screen Styles */
 
 @media (min-width: 50rem) {
