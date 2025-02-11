@@ -210,9 +210,12 @@ textarea:not([rows]) {
 @media (min-width: 50rem) {
   .preview-card {
     max-width: 57.5rem;
-    min-height: 31.25rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .preview-card-section__description {
+    margin-bottom: 5rem;
   }
 
   .preview-card-section__btn {
