@@ -203,3 +203,18 @@ textarea:not([rows]) {
 .preview-card-section__btn--luxury {
   color: var(--very-dark-cyan);
 }
+
+/* Larger Screen Styles */
+
+@media (min-width: 50rem) {
+  .preview-card {
+    max-width: 57.5rem;
+    min-height: 31.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .preview-card-section__btn {
+    margin-top: auto;
+  }
+}
